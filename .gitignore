@@ -1,0 +1,14 @@
+# Allow-list: only the Diwali pack belongs in this repo, not the older stingers or the share zips
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/Baps_logo.svg.webp
+!/diwali/
+!/output_diwali/
+
+# Lower third videos stay out: Deep uses the HTML version in output_diwali/lower_thirds_html/
+/output_diwali/lower_thirds/
+/output_diwali/previews/Preview_LowerThird_*.mp4
+
+__pycache__/
